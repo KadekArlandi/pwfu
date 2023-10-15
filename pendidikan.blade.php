@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<h1>Pendidikan</h1>
-    <p>Isikan pendidikan disini</p>
-    <a href="<?php echo route('identitas')?>">identitas</a>
-    <a href="<?php echo route('skill')?>">skill</a>
-</body>
-</html>
+@extends('m4.layout')
+@section('content')
+<h1>PENDIDIKAN</h1>
+<p>1. SD Negeri 1 Buduk, Tahun 2010-2016</p>
+<p>2. SMP Negeri 3 Mengwi, Tahun 2016-2019</p>
+<p>3. SMA Negeri 2 Mengwi, Tahun 2019-2022</p>
+@endsection0

@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Identitas</h1>
-    <p>Isikan identitas disini</p>
-    <a href="<?php echo route('pendidikan')?>">Pendidikan</a>
-    <a href="<?php echo route('skill')?>">skill</a>
-</body>
-</html>
+@extends('m4.layout')
+@section('content')
+<h1>IDENTITAS</h1>
+<P>Perkenalkan nama saya <strong>{{ $nama }}</strong> saya beralamat di <strong>{{ $alamat }}</strong></P>
+@endsection
